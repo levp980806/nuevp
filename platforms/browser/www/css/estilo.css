@@ -6,7 +6,7 @@ header
 {
 	height: 50px;
 /*	border:1px solid #000;*/
-	background: #31422B;
+	background: darkgreen
 	/*animation-name:efecto1;
 	animation-duration: 3s;
 	animation-direction: alternate;
@@ -15,12 +15,13 @@ header
 	
 }
 
-nav
-{
-	background: white;
-	
-}
+body{
+    background-color: white;
+ }
 
+ body.obscuro{
+    background-color: darkcyan;
+ }
 ul,ol
 {
 	list-style: none;
@@ -53,5 +54,19 @@ li
 .logo
 {
 	float: left;
-	width: 225px;
+    width: 225px;
+    background: white;
 }
+button{
+    background-color: darkslategrey;
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+    padding: 30px;
+    font-size: 1em;
+    margin-top: 10px;
+ }
+
+ body.obscuro{
+    background-color: darkcyan;
+ }

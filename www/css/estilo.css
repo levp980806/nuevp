@@ -15,12 +15,13 @@ header
 	
 }
 
-nav
-{
-	background-color:darkgreen;
-	
-}
+body{
+    background-color: white;
+ }
 
+ body.obscuro{
+    background-color: darkcyan;
+ }
 ul,ol
 {
 	list-style: none;
@@ -56,3 +57,16 @@ li
     width: 225px;
     background: white;
 }
+button{
+    background-color: darkslategrey;
+    width: 80%;
+    margin-left: 10%;
+    color: white;
+    padding: 30px;
+    font-size: 1em;
+    margin-top: 10px;
+ }
+
+ body.obscuro{
+    background-color: darkcyan;
+ }
