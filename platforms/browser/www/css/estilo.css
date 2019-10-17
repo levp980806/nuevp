@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header
+{
+	height: 50px;
+/*	border:1px solid #000;*/
+	background: #31422B;
+	/*animation-name:efecto1;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-iteration-count: 3;
+	*/
+	
+}
+
+nav
+{
+	background: white;
+	
+}
+
+ul,ol
+{
+	list-style: none;
+	width: 450px;
+	margin: 0px auto;
+	float: right;
+	width: 800;
+}
+
+li
+{
+
+	display: inline-block;
+	width: 145px;
+	height: 25px;
+	text-align: center; /*JUSTIFCADO ---- JUSTIFY. DERECHA ------- LEFT. RIGHT----IZQUIERDA */
+	line-height: 25px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF; 
+	margin-left: -5px;
+	float: right;
+	width: 800;
+	margin-top: 12.5px;
+
+}
+
+/* Clases */
+
+.logo
+{
+	float: left;
+	width: 225px;
+}
