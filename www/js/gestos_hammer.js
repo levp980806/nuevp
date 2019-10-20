@@ -10,10 +10,10 @@ var app = {
     },
  
     iniciaBotones: function(){
-      //  var btnClaro = document.querySelector('#claro');
+        var btnClaro = document.querySelector('#claro');
         var btnObscuro = document.querySelector('#obscuro');
  
-      //  btnClaro.addEventListener('click',this.ponloClaro, false);
+        btnClaro.addEventListener('click',this.ponloClaro, false);
         btnObscuro.addEventListener('click',this.ponloBobscuro, false);
     
     },
