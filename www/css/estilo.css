@@ -92,3 +92,20 @@ button{
 
 
  }
+
+ #carrusel
+{
+	height: 400px;
+	width: 800px;
+	margin: 0px auto;
+	box-shadow: 0px 0px 10px darkgrey inset;
+	border-radius: 20px;
+	overflow: hidden;
+	border:5px solid #000;
+}
+
+.foto_gale
+{
+	width: 800px;
+	height: 600px;
+}
